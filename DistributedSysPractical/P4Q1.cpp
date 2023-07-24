@@ -11,7 +11,7 @@ int main()
 {
 	int i, nthreads;
 	double pi = 0;
-	double partial_sums, sum = 0.0;
+	double sum = 0.0;
 	step = 1.0 / (double)num_steps;
 	omp_set_num_threads(NUM_THREADS);
 	double start_time = omp_get_wtime();
@@ -29,14 +29,13 @@ int main()
 		//It will have 4 loops in the 4 threads 
 		// i = 0 ; then 0 + 4 (nthrds) i = 1; 1 + 4 --> Skipped 4 
 		//To collect the partial sums with multiple threads
-		for (i = id, partial_sums = 0.0; i < num_steps; i = i + nthrds)
+		for (i = id; i < num_steps; i = i + nthrds)
 		{
 			x = (i + 0.5) * step;
-			partial_sums = 4.0 / (1.0 + x * x);
 
 			#pragma omp critical 
 			{
-				sum += partial_sums;
+				sum += 4.0 / (1.0 + x * x);
 			}
 		}
 	}
