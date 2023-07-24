@@ -24,5 +24,8 @@
     <ClCompile Include="P3Q3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="P3Q4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
