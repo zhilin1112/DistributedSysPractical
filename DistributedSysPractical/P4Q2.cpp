@@ -45,6 +45,7 @@ int criticalMethod() {
 		double sum = 0.0;
 		int num = omp_get_num_threads();
 		int thread = omp_get_thread_num();
+		int id;
 		for (int i = thread; i < MAX; i += num)
 		{
 			sum += i;
