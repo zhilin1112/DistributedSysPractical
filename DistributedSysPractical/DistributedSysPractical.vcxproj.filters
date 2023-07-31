@@ -13,22 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Prac3">
+      <UniqueIdentifier>{e7ee4366-04d1-4336-892c-57f51eb2d37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prac4">
+      <UniqueIdentifier>{ebbf4298-49d0-4579-b7cd-97ce1e3f4f6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P3Q1.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Prac3</Filter>
     </ClCompile>
     <ClCompile Include="P3Q2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Prac3</Filter>
     </ClCompile>
     <ClCompile Include="P3Q3.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Prac3</Filter>
     </ClCompile>
     <ClCompile Include="P4Q1.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Prac4</Filter>
     </ClCompile>
     <ClCompile Include="P4Q2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Prac4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
