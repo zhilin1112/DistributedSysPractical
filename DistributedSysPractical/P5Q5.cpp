@@ -18,7 +18,7 @@ void countEven(const std::vector<int>& numbers,
             increment.unlock();
         }
     }
-    
+
 }
 
 void insert_numbers_into_vector(std::vector<int>& v, int start_val, int len) {
@@ -39,7 +39,7 @@ int main() {
 
     std::thread t1(countEven, std::ref(numbers1), std::ref(n));
     std::thread t2(countEven, std::ref(numbers2), std::ref(n));
-    
+
 
     t1.join();
     t2.join();
