@@ -54,5 +54,8 @@
     <ClCompile Include="P5Q3.cpp">
       <Filter>Source Files\Prac5</Filter>
     </ClCompile>
+    <ClCompile Include="P5Q4.cpp">
+      <Filter>Source Files\Prac5</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

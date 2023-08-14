@@ -166,7 +166,12 @@
     <ClCompile Include="P5Q2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="P5Q3.cpp" />
+    <ClCompile Include="P5Q3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="P5Q4.cpp">
+      <OpenMPSupport Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</OpenMPSupport>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
