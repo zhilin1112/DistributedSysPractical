@@ -84,5 +84,8 @@
     <ClCompile Include="P7Q1.cpp">
       <Filter>Source Files\Prac7</Filter>
     </ClCompile>
+    <ClCompile Include="P7Q3.cpp">
+      <Filter>Source Files\Prac7</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
